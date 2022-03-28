@@ -1,0 +1,58 @@
+/*Start newsleater style*/
+.newsleater-area {
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50%;
+        height: 95%;
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: cover;
+        background-image: url(../img/lsd_product.png);
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        top: -200px;
+        left: -150px;
+        background-image: url(../img/shape.svg);
+        background-size: contain;
+    }
+}
+form.subscribe-form.watch {
+    margin-bottom: 40px;
+    input {
+        width: calc(100% - 164px);
+        margin: 0;
+        border: none;
+        background-color: $whiteColor;
+        padding-left: 15px;
+        height: 61px;
+    }
+    button {
+        height: 61px;
+        width: 160px;
+        border: none;
+        padding: 0;
+        margin-left: -3px;
+        background-color: $secondaryColor;
+        color: $mainColor   ;
+        transition: 0.3s;
+        i {
+            color: #FEAC01;
+        }
+        &:hover {
+            background-color: #FEAC01;
+            i {
+                color: #ffffff;
+            }
+        }
+    }
+}
+

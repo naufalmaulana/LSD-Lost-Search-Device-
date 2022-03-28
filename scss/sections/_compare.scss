@@ -1,0 +1,29 @@
+/*Start Compare style*/
+thead.heading {
+    th {
+        border: none;
+        padding: 0 0 10px;
+    }
+    h3 {
+        font-size: 24px;
+        color: #3C368C;
+        font-weight: 600;
+    }
+}
+.product-image {
+    margin-bottom: 15px;
+}
+th.theme {
+    font-size: 16px;
+    color: #3C368C;
+}
+th.price {
+    color: #FEAC01;
+    font-size: 22px;
+    font-weight: 600;
+}
+table.compare-table {
+    td {
+        color: #707070;
+    }
+}

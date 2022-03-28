@@ -1,0 +1,237 @@
+/*Start header style*/
+header.header-area.absulate-header {
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+}
+header.header-area {
+    height: 115px;
+}
+.site-logo{
+    width: 75px;
+}
+nav.main-menu {
+    float: right;
+    padding: 20px 0;
+    ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+        li{
+        display:inline-block;
+            a{
+            color: #ffffff;
+            font-size: 14px;
+            text-transform: uppercase;
+            padding: 10px 15px;
+            display: inline-block;
+            }
+        }
+    }
+}
+/*Start header style 2*/
+.main-meni-wrap {
+    display: inline-flex;
+    float: right;
+    .header-btn {
+        margin-top: 30px;
+        margin-left: 20px;
+        a.order-btn {
+            background-color: #C065DE;
+            padding: 13px 30px;
+            color: #ffffff;
+            font-size: 14px;
+            text-transform: uppercase;
+            i {
+                margin-right: 6px;
+                color: #FEAC01;
+            }
+            &:hover {
+                background-color: #FEAC01;
+                i {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
+/*Sticky*/
+.header-area.sticky.navbar-fixed-top {
+    position: fixed;
+    background-color: $secondaryColor;
+    height: 85px;
+    .site-logo {
+        margin-top: 7px;
+        width: 75px;
+    }
+}
+.header-area.sticky {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+}
+
+/*=== Naviagaion ===*/
+/* Mobile Menu */
+nav.proone-nav {
+    float: left;
+    width: 100%;
+}
+.proone-nav {
+    ul.menu {
+        float: right;
+        margin-top: 19px;
+        >li {
+            >a {
+                color: $yellowColor;
+                font-size: 14px;
+                font-weight: 400;
+                opacity: 1;
+                padding: 5px 25px 15px 15px;
+                text-transform: uppercase;
+                border-radius: 3px;
+            }
+        }
+    }
+    ul {
+        list-style: none;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .menu {
+        li {
+            position: relative;
+            -webkit-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+            list-style: none;
+            a {
+                color: #ffffff;
+                display: block;
+            }
+        }
+        >li {
+            float: left;
+            padding: 0;
+            &:hover {
+                >a {
+                    color: #FEAC01;
+                }
+                >ul {
+                    opacity: 1;
+                    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                    -webkit-transform: translate3d(0px, 0px, 0px);
+                    -ms-transform: translate3d(0px, 0px, 0px);
+                    transform: translate3d(0px, 0px, 0px);
+                    visibility: visible;
+                }
+            }
+            &:last-child {
+                >ul {
+                    ul {
+                        left: auto;
+                        right: 100%;
+                    }
+                }
+            }
+            ul {
+                background-color: #C065DE;
+                border-top: 2px solid #FEAC01;
+                opacity: 0;
+                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+                padding: 15px 0;
+                position: absolute;
+                -webkit-transform: translate3d(0px, 10px, 0px);
+                -ms-transform: translate3d(0px, 10px, 0px);
+                transform: translate3d(0px, 10px, 0px);
+                -webkit-transition: all 0.3s ease 0s;
+                -o-transition: all 0.3s ease 0s;
+                transition: all 0.3s ease 0s;
+                visibility: hidden;
+                width: 210px;
+                z-index: 99;
+                -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+                box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+            }
+            >ul {
+                li {
+                    a {
+                        padding: 5px 12px;
+                        &:hover {
+                            background-color: #efefef;
+                            border-radius: 2px;
+                            color: #FEAC01;
+                        }
+                    }
+                }
+                >li {
+                    >ul {
+                        left: 100%;
+                        padding: 10px;
+                        top: 0;
+                    }
+                    &:hover {
+                        >ul {
+                            opacity: 1;
+                            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                            -webkit-transform: translate3d(0px, 0px, 0px);
+                            -ms-transform: translate3d(0px, 0px, 0px);
+                            transform: translate3d(0px, 0px, 0px);
+                            visibility: visible;
+                        }
+                    }
+                }
+            }
+        }
+        li.has-dropdown {
+            >a {
+                &::after {
+                    content: "\ea99";
+                    font-family: icofont;
+                    font-size: 16px;
+                    margin-top: -30px;
+                    position: absolute;
+                    right: 6px;
+                    bottom: 14px;
+                }
+            }
+        }
+    }
+}
+header {
+    .col-3.col-md-9 {
+        position: static;
+    }
+}
+.mean-container {
+    .mean-bar {
+        margin-top: 18px;
+        position: inherit;
+        margin-bottom: 14px;
+        margin-left: -10px;
+    }
+}
+.sticky {
+    .mean-container {
+        .mean-bar {
+            margin-top: 24px;
+        }
+    }
+}
+.mobile-menu-area {
+    .mean-nav {
+        left: 0;
+        position: absolute;
+        top: 84px;
+        z-index: 2;
+    }
+}
+.sticky {
+    .proone-nav {
+        ul.menu {
+            margin-top: 24px;
+        }
+    }
+}

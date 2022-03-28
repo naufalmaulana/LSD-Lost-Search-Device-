@@ -1,0 +1,204 @@
+/*Start faq style*/
+a.collapsed {
+    .rotate-icon {
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+        display: inline-block;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        position: absolute;
+        right: 24px;
+    }
+}
+.rotate-icon {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    position: absolute;
+    right: 20px;
+    margin-top: 15px;
+}
+div.card {
+    border: none;
+    margin-bottom: 20px;
+}
+div.card-header {
+    padding: 10px 30px 10px;
+    border: none;
+    background-color: #ffffff;
+    height: 75px;
+    .collapsed {
+        height: 75px;
+    }
+    h5 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #444444;
+    }
+}
+div.card-body {
+    p {
+        padding-left: 20px;
+        display: flex;
+    }
+    padding: 18px 35px 8px;
+    margin-top: -7px;
+    float: left;
+    background-color: #593087;
+    color: #ffffff;
+}
+.card.active {
+    span.icon-left {
+        position: relative;
+        background-color: #ffffff;
+        color: #C065DE;
+        border-radius: 50%;
+        padding: 5px 10px;
+        width: 45px;
+        height: 45px;
+        display: inline-block;
+        text-align: center;
+        line-height: 38px;
+        left: -16px;
+    }
+    .card-header {
+        background-color: #C065DE;
+        padding-bottom: 12px;
+        height: 75px;
+        h5 {
+            color: #fff;
+        }
+        i {
+            color: #fff;
+        }
+    }
+}
+span.icon-left {
+    position: relative;
+    background-color: #EDEDFC;
+    color: #656565;
+    border-radius: 50%;
+    padding: 5px 10px;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;
+    left: -16px;
+}
+span.ico-rote {
+    width: 72px;
+    height: 52px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.single-field {
+    height: auto;
+    margin: 0 0 15px;
+    padding: 0;
+    width: 100%;
+    >input {
+        border: 1px solid none;
+        border-radius: 5px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        height: 40px;
+        margin-bottom: 15px;
+        padding: 0 15px;
+        width: 100%;
+        background-color: #ffffff;
+        border-radius: 5px;
+    }
+    >textarea {
+        border: 1px solid #ffffff;
+        height: auto;
+        padding: 10px 15px;
+        width: 100%;
+        margin-bottom: 17px;
+        background-color: rgba(255, 255, 255, 0.149);
+        background-color: #ffffff;
+    }
+    input {
+        &::-webkit-input-placeholder {
+            color: #656565;
+        }
+        &:-ms-input-placeholder {
+            color: #656565;
+        }
+        &::-ms-input-placeholder {
+            color: #656565;
+        }
+        &::placeholder {
+            color: #656565;
+        }
+        &::-webkit-focus {
+            color: #ffffff;
+        }
+        &:-ms-focus {
+            color: #ffffff;
+        }
+        &::-ms-focus {
+            color: #ffffff;
+        }
+        &::focus {
+            color: #ffffff;
+        }
+    }
+    textarea {
+        &::-webkit-input-placeholder {
+            color: #656565;
+        }
+        &:-ms-input-placeholder {
+            color: #656565;
+        }
+        &::-ms-input-placeholder {
+            color: #656565;
+        }
+        &::placeholder {
+            color: #656565;
+        }
+        &::-webkit-focus {
+            color: #ffffff;
+        }
+        &:-ms-focus {
+            color: #ffffff;
+        }
+        &::-ms-focus {
+            color: #ffffff;
+        }
+        &::focus {
+            color: #ffffff;
+        }
+    }
+}
+.half-field {
+    float: left;
+    width: 48%;
+}
+.half-field-last {
+    float: left;
+    width: 48%;
+    float: right;
+}
+form.contact-us-form {
+    h5 {
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+}
+.contact-us-form {
+    .single-field {
+        .form-control {
+            &:focus {
+                outline: 0 none;
+                background-color: rgba(255, 255, 255, 0.8);
+                -webkit-box-shadow: none;
+                box-shadow: none;
+            }
+        }
+    }
+}

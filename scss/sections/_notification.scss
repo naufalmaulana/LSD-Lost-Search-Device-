@@ -1,0 +1,35 @@
+/*Start notification style*/
+.notification-area {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.notification-content {
+    margin-top: 80px;
+    margin-bottom:60px;
+    h2 {
+        font-size: 38px;
+        line-height: 48px;
+        color: $secondaryColor;
+        margin-bottom: 25px;
+    }
+    p {
+        margin-bottom: 20px;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 25px;
+            }
+            i {
+                margin-right: 7px;
+                color: #FEAC01;
+                font-weight:700;
+            }
+        }
+    }
+}

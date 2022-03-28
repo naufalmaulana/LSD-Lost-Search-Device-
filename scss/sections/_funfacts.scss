@@ -1,0 +1,28 @@
+/*Start funfacts style*/
+.funfacts-area {
+    background-size: cover;
+    background-position: center center;
+}
+.fact-img {
+    margin-top: -130px;
+}
+.single-fact {
+    margin-bottom: 30px;
+    padding: 0 15px;
+    span.counter {
+        color: #FEAC01;
+        font-size: 50px;
+        line-height: 30px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    h4 {
+        font-size: 24px;
+        color: #ffffff;
+        line-height: 30px;
+    }
+    p {
+        color: #ffffff;
+    }
+}

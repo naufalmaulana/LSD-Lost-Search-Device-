@@ -1,0 +1,42 @@
+.cart-area .table-responsive {
+    /* background-color: #EEEAF2; */
+}
+
+.cart-area .table-responsive thead {
+    background-color: #907869;
+    border: 1px solid #D3CBE2;
+    color: #efebe8;
+}
+
+.cart-area .table-responsive thead th {
+    border: 1px solid #D3CBE2;
+}
+
+.cart-area .table-responsive tbody tr, .cart-area .table-responsive tbody tr th,
+.cart-area .table-responsive tbody tr, .cart-area .table-responsive tbody tr td,
+.cart-area .table-responsive tfoot  {
+    border: 1px solid #D3CBE2;
+}
+
+.cart-area .table-responsive tbody tr td {
+    vertical-align: middle;
+    text-align: center;
+}
+input.code-input.single-input {
+    border: 1px dashed #D3CBE2;
+    padding: 10px 15px;
+    margin-right: 15px;
+}
+.cart-area  a.buttonfx.cupon {
+    position: relative;
+    top: 16px;
+}
+.order-summary {
+    box-shadow: 0px 8px 17px rgb(70 70 70 / 13%);
+    padding: 30px;
+}
+.check-out-contact {
+    margin-bottom: 30px;
+    box-shadow: 0px 8px 17px rgb(70 70 70 / 13%);
+    padding: 30px;
+}

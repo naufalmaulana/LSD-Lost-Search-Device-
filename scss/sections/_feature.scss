@@ -1,0 +1,98 @@
+/*Feature css*/
+.feature-area {
+    position:relative;
+    &:before{
+    @include bg_features;
+    background-image: url(../img/product_hand.png);
+    }
+    &:after{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/feature-bg-2.png);
+        content: "";
+        background-repeat: no-repeat;
+        max-width: 70px;
+        background-size: contain;
+    }
+}
+.single-feature{
+    margin-bottom: 40px;
+    img{
+        margin-bottom: 25px;
+    }
+    h2{
+        font-size: 24px;
+        line-height: 30px;
+        color: $thirdColor;
+    }
+    p{
+
+    }
+}
+/*Feature css style 2*/ 
+.features-wrap {
+    position: relative;
+    padding-left: 90px;
+    margin-bottom: 50px;
+}
+.feature-thumb {
+    position: absolute;
+    left: 0;
+}
+.feature-content {
+    position: relative;
+    top: 12px;
+    h6 {
+        font-size: 15px;
+        color: #707070;
+        margin-bottom: 5px;
+        font-weight: 400;
+    }
+    h5 {
+        font-size: 24px;
+        color: #3C368C;
+        font-weight: 600;
+    }
+}
+/*Feature css style 2*/
+.process-area {
+    background-size: cover;
+    background-position: top center;
+}
+.process-drone {
+    img {
+        margin-bottom: 50px;
+    }
+}
+
+.feature-vr {
+    position: relative;
+    img {
+        position: absolute;
+        top: -40px;
+        left: auto;
+        right: 35px;
+        max-width: 550px;
+        width: auto;
+        z-index: 2;
+    }
+}
+/*Feature css style 3*/
+.process-area.style-3 {
+    position: relative;
+    background-color:#3C368C;
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+        background-image: url(../img/process-bg-3.svg);
+        background-size: cover;
+        background-position: center center;
+    }
+}

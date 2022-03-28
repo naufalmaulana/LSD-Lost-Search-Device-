@@ -1,0 +1,64 @@
+/* Variables*/
+$mainColor:#efebe8;
+$secondaryColor:#50260e;
+$thirdColor: #907869;
+$fourthColor: #746c6c;
+$fifthColor: #847a74;
+$sixthColor: #d1beb4;
+$whiteColor: #fff;
+$blackColor: #000000;
+$yellowColor: #FEAC01;
+/* Sections*/
+@import "global/_common";
+@import "sections/_header";
+@import "sections/_hero";
+@import "sections/_feature";
+@import "sections/_model";
+@import "sections/_technical";
+@import "sections/_notification";
+@import "sections/_video";
+@import "sections/_testimonial";
+@import "sections/_newslater";
+@import "sections/_funfacts";
+@import "sections/_pricing";
+@import "sections/_product_slider";
+@import "sections/_compare"; 
+@import "sections/_faq";
+@import "sections/_footer";
+/* Elements*/
+@import "elements/_product";
+@import "elements/_blog";
+@import "elements/_contact";
+
+.wrapper{
+    background-color: $mainColor;
+}
+
+.breadcumb-area{
+    background-color: $secondaryColor;
+}
+
+.order-summary{
+    h5{
+        color: $secondaryColor;
+    }
+
+    margin-top: 50px;
+}
+
+.check-out-contact{
+    h3{
+        color: $secondaryColor;
+    }
+}
+
+.check-out-area{
+    padding: 100px 0;
+}
+
+// .cart-area .table-responsive thead{
+//     background-color: $secondaryColor;
+// }
+
+
+

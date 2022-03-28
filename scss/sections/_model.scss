@@ -1,0 +1,126 @@
+/*Start product css*/
+.watch-model-slide {
+    .slick-slider {
+        margin: 0 -15px;
+    }
+    .slick-slide {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+.product-area {
+    position: relative;
+    &:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/product-shape.svg);
+        background-size: cover;
+        background-position: left center bottom;
+    }
+}
+.single-watch-model {
+    margin-bottom: 40px;
+    box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.05);
+    &:hover {
+        .model-order {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(-50%);
+        }
+    }
+}
+.model-content {
+    padding: 28px 15px 15px 30px;
+    background-color:#ffffff;
+    position:relative;
+}
+.model-wrap {
+    width: 100%;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+.model-img {
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+}
+.model-order {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) scale(0.7);
+    width: 100%;
+    background-color: $secondaryColor;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    a{
+        display:block;
+        &:hover{
+        background-color:#FEAC01;
+        }
+        h5 {
+            font-size: 14px;
+            color: $mainColor;
+            text-transform: uppercase;
+            margin: 0;
+            padding: 6px 0;
+            font-weight: 400;
+            i {
+                margin-right: 8px;
+            }
+        }
+    }
+    
+}
+.model-content {
+    h2 {
+        color: #FEAC01;
+        font-weight: 600;
+        span{
+        text-decoration: line-through;
+        color:#707070;
+        font-weight: 400;
+        }
+    }
+    h3 {
+        font-size: 24px;
+        color: $thirdColor;
+        font-weight: 600;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            margin-bottom: 12px;
+            i {
+                margin-right: 5px;
+                color: #FEAC01;
+            }
+        }
+    }
+}
+
+/*Start product css style 2*/
+.watch-model-wrap.style-2 {
+    position: relative;
+    .model-wrap {
+        width: 50%;
+        float: left;
+        box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.05);
+    }
+    .model-content {
+        padding: 30px 0 30px 30px;
+        width: 50%;
+        float: left;
+        box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.05);
+    }
+    .single-watch-model {
+        margin: 0;
+    }
+}

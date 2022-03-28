@@ -1,0 +1,39 @@
+.section-title {
+  padding-bottom: 30px;
+}
+.section-title h2 {
+  font-size: 38px;
+  line-height: 48px;
+  color: #3C368C;
+}
+.section-title h2 p {
+  font-size: 16px;
+  color: #707070;
+}
+
+.section-title.width-80 h2 {
+  width: 80%;
+}
+
+.animation-1 {
+  animation-name: float-bob;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-name: float-bob;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: float-bob;
+  -moz-animation-duration: 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: float-bob;
+  -ms-animation-duration: 2s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  -o-animation-name: float-bob;
+  -o-animation-duration: 2s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+}
